@@ -71,7 +71,7 @@ Python 3.10+ recommended. A GPU is required for notebook 04 (GNN training) and r
 All molecular datasets used in this work are provided directly in this repository and/or on Zenodo to ensure exact reproducibility of the results.
 
 | File | Description | Molecules | Location
-|---|---|---|
+|---|---|---|---|
 | `data/molecules_271.sdf` | Primary dataset — Adagrasib-similar compounds | 271 | GitHub + Zenodo
 | `data/molecules_validation.sdf` | Validation dataset | 15,358 | Zenodo only
 | `data/adagrasib.sdf` | Reference molecule (Adagrasib, PubChem CID 2296643) | 1 | GitHub + Zenodo
