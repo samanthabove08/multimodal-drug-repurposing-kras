@@ -68,17 +68,18 @@ Python 3.10+ recommended. A GPU is required for notebook 04 (GNN training) and r
 ## Data
 
 ### Input data
-All molecular datasets used in this work are provided directly in this repository and on Zenodo to ensure exact reproducibility of the results.
+All molecular datasets used in this work are provided directly in this repository and/or on Zenodo to ensure exact reproducibility of the results.
 
-| File | Description | Molecules |
+| File | Description | Molecules | Location
 |---|---|---|
-| `data/molecules_271.sdf` | Primary dataset — Adagrasib-similar compounds | 271 |
-| `data/molecules_validation.sdf` | Validation dataset | 15,358 |
-| `data/adagrasib.sdf` | Reference molecule (Adagrasib, PubChem CID 2296643) | 1 |
+| `data/molecules_271.sdf` | Primary dataset — Adagrasib-similar compounds | 271 | GitHub + Zenodo
+| `data/molecules_validation.sdf` | Validation dataset | 15,358 | Zenodo only
+| `data/adagrasib.sdf` | Reference molecule (Adagrasib, PubChem CID 2296643) | 1 | GitHub + Zenodo
+
 
 The primary dataset was originally retrieved from [PubChem](https://pubchem.ncbi.nlm.nih.gov/) via structural similarity search (2D Tanimoto ≥ 0.90) using Adagrasib as the query. The validation dataset was retrieved from the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay database. Both datasets are redistributed here unchanged for reproducibility purposes under the PubChem open data policy.
 
-The GNN training set (~5M molecules from ZINC22) is available on Zenodo together with the other datasets and model weights at the listed below.
+The pre-processed PyTorch Geometric graph dataset used for GNN training (training_graphs.pt, ~5M molecules from ZINC22) is available on Zenodo at the DOI listed below. Download it and place it in the data/ directory before running notebook 04.
 
 ### Pre-trained model weights
 The trained GNN encoder weights (`gnn_encoder.pt`) are available on Zenodo:
