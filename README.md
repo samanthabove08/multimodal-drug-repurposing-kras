@@ -4,7 +4,7 @@
 This repository contains the code for the paper:
 
 > **A Multimodal Molecular Representation Framework for Robust Similarity-Based Drug Repurposing: Application to KRAS G12C Inhibitor Identification**
-> Samantha Bove et al. — *submitted to Bioinformatics*
+> Samantha Bove et al. — *submitted to Briefings in Bioinformatics*
 
 ---
 
@@ -71,10 +71,10 @@ Python 3.10+ recommended. A GPU is required for notebook 04 (GNN training) and r
 All molecular datasets used in this work are provided directly in this repository and/or on Zenodo to ensure exact reproducibility of the results.
 
 | File | Description | Molecules | Location
-|---|---|---|---|
+|---|---|---|
 | `data/molecules_271.sdf` | Primary dataset — Adagrasib-similar compounds | 271 | GitHub + Zenodo
 | `data/molecules_validation.sdf` | Validation dataset | 15,358 | Zenodo only
-| `data/adagrasib.sdf` | Reference molecule (Adagrasib, PubChem CID 2296643) | 1 | GitHub + Zenodo
+| `data/adagrasib.sdf` | Reference molecule (Adagrasib, PubChem CID 138611145) | 1 | GitHub + Zenodo
 
 
 The primary dataset was originally retrieved from [PubChem](https://pubchem.ncbi.nlm.nih.gov/) via structural similarity search (2D Tanimoto ≥ 0.90) using Adagrasib as the query. The validation dataset was retrieved from the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) BioAssay database. Both datasets are redistributed here unchanged for reproducibility purposes under the PubChem open data policy.
@@ -84,7 +84,7 @@ The pre-processed PyTorch Geometric graph dataset used for GNN training (trainin
 ### Pre-trained model weights
 The trained GNN encoder weights (`gnn_encoder.pt`) are available on Zenodo:
 
-> **DOI:** [to be assigned upon publication]
+> **DOI:** [10.5281/zenodo.21396288](https://doi.org/10.5281/zenodo.21396288)
 
 Download `gnn_encoder.pt` and place it in the `data/` directory before running notebooks 03.
 
@@ -117,13 +117,13 @@ If the embedding CSVs are available, you can run notebooks 05–08 directly.
 If you use this code, please cite:
 
 ```
-@article{bove2025multimodal,
+@article{bove2026multimodal,
   title   = {A Multimodal Molecular Representation Framework for Robust
              Similarity-Based Drug Repurposing: Application to KRAS G12C
              Inhibitor Identification},
   author  = {Bove, Samantha and others},
-  journal = {Bioinformatics},
-  year    = {2025},
+  journal = {Briefings in Bioinformatics},
+  year    = {2026},
   note    = {submitted}
 }
 ```
