@@ -1,9 +1,8 @@
-# Multimodal Molecular Representation Framework for Drug Repurposing
-### Application to KRAS G12C Inhibitor Identification
+# Cross-Representation Molecular Prioritization for Drug Repurposing: A Multimodal Framework with Application to KRAS G12C
 
 This repository contains the code for the paper:
 
-> **A Multimodal Molecular Representation Framework for Robust Similarity-Based Drug Repurposing: Application to KRAS G12C Inhibitor Identification**
+> **Cross-Representation Molecular Prioritization for Drug Repurposing: A Multimodal Framework with Application to KRAS G12C**
 > Samantha Bove et al. — *submitted to Briefings in Bioinformatics*
 
 ---
