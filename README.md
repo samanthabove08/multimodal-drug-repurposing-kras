@@ -117,9 +117,7 @@ If you use this code, please cite:
 
 ```
 @article{bove2026multimodal,
-  title   = {A Multimodal Molecular Representation Framework for Robust
-             Similarity-Based Drug Repurposing: Application to KRAS G12C
-             Inhibitor Identification},
+  title   = {Cross-Representation Molecular Prioritization for Drug Repurposing: A Multimodal Framework with Application to KRAS G12C},
   author  = {Bove, Samantha and others},
   journal = {Briefings in Bioinformatics},
   year    = {2026},
