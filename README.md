@@ -3,7 +3,7 @@
 This repository contains the code for the paper:
 
 > **Cross-Representation Molecular Prioritization for Drug Repurposing: A Multimodal Framework with Application to KRAS G12C**
-> Samantha Bove et al. — *submitted to Journal of Chemical Information and Modeling*
+> Samantha Bove et al. — *submitted to Journal of Cheminformatics*
 
 ---
 
@@ -119,7 +119,7 @@ If you use this code, please cite:
 @article{bove2026multimodal,
   title   = {Cross-Representation Molecular Prioritization for Drug Repurposing: A Multimodal Framework with Application to KRAS G12C},
   author  = {Bove, Samantha and others},
-  journal = {Journal of Chemical Information and Modeling},
+  journal = {Journal of Cheminformatics},
   year    = {2026},
   note    = {submitted}
 }
